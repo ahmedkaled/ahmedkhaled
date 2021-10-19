@@ -5,6 +5,10 @@
     --section-color:#f6f6f6;
     --three-color:#2c4755;
     --main-padding:60px;
+    --main-transition:0.4s;
+}
+html {
+    scroll-behavior: smooth;
 }
 /* End Variables */
 
@@ -108,7 +112,7 @@ header nav .icon span:first-child {
 width: 100%;
 }
 header nav .icon span:nth-child(2) {
-    transition: 0.4s;
+    transition: var(--main-transition);
 width: 60%;
 }
 header nav .icon span:last-child {
@@ -146,7 +150,7 @@ header nav ul li a {
     padding: 15px;
     text-decoration: none;
     color: black;
-    transition: 0.4s;
+    transition: var(--main-transition);
 }
 header nav ul li a:hover {
     padding-left: 25px;
@@ -219,7 +223,7 @@ section article  p {
 }
 /* End Feautres */
 /* Start services */
-.services {
+#services {
     padding-top:var(--main-padding);
     padding-bottom: var(--main-padding);
 }
@@ -282,7 +286,7 @@ section article  p {
 /* End services */
 
 /* Start portfolio */
-.Portfolio {
+#Portfolio {
     padding-top:var(--main-padding);
     padding-bottom: var(--main-padding);
     background-color: #f6f6f6;
@@ -314,7 +318,7 @@ section article  p {
 }
 /* End portfolio */
 /* Start About  */
-.about {
+#about {
     padding-top: var(--main-padding);
     padding-bottom: calc(var(--main-padding) + 60px);
     
