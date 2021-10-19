@@ -316,7 +316,7 @@ section article  p {
 /* Start About  */
 .about {
     padding-top: var(--main-padding);
-    padding-bottom: calc (var(--main-padding) + 60px);
+    padding-bottom: calc(var(--main-padding) + 60px);
     
 }
 .about .about-content {
@@ -406,3 +406,48 @@ section article  p {
 }
 
 /* End About */
+/* Start contact */
+ #contact {
+     background-color: var(--section-color);
+     padding-top: var(--main-padding);
+     padding-bottom: var(--main-padding);
+ }
+#contact .text {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    text-align: center;
+}
+#contact .text .label {
+    font-weight: 800;
+    word-spacing: -5px;
+    color: var(--three-color);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+#contact .text a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+#contact .text .scoial {
+    font-weight: 400;
+    margin-top: 20px;
+    color: var(--three-color);
+}
+@media (max-width:767px) {
+    #contact .text .label ,#contact .text a {
+        font-size: 25px;
+    }
+}
+#footer {
+    background-color: var(--three-color);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+#footer span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+/* end contact */
